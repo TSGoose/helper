@@ -1,0 +1,107 @@
+.container {
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .welcomeText {
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+    color: #3f0bcd;
+    font-size: 36px;
+    font-weight: 400;
+    width: 289px;
+    text-align: left;
+  }
+  
+  
+  .advisorTitle {
+    margin: auto;
+    align-self: center;
+    border-radius: 44px;
+    background: linear-gradient(180deg, #460ce5 0%, #3509ac 100%);
+    box-shadow: 0 -7.819px 7.819px #813a0e inset,
+                0 7.819px 7.819px #e37d3d inset,
+                0 18px 23px rgba(66, 28, 4, 0.44);
+    margin-top: 19px;
+    font-size: 44px;
+    text-align: center;
+    padding: 6px 32px;
+    justify-self: left;
+
+  
+  }
+  
+  
+  .advisorImage {
+    margin: auto;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+    object-position: center;
+    justify-self: center;
+  }
+  
+  
+  
+  
+  .startButton {
+    margin: auto;
+    justify-self: end;
+    justify-content: end;
+    align-self: flex-end;
+    margin: auto;
+    border-radius: 18px;
+  
+    background: linear-gradient(180deg, #460ce5 0%, #3509ac 100%);
+  
+    box-shadow: 0 -7.819px 7.819px #813a0e inset,
+  
+                0 7.819px 7.819px #e37d3d inset,
+  
+                0 18px 23px rgba(66, 28, 4, 0.44);
+  
+    min-height: 36px;
+  
+    width: 176px;
+
+    padding: 11px 46px;
+  
+    border: none;
+  
+    color: inherit;
+  
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  .visually-hidden {
+  
+    position: absolute;
+  
+    width: 1px;
+  
+    height: 1px;
+  
+    padding: 0;
+  
+    margin: -1px;
+  
+    overflow: hidden;
+  
+    clip: rect(0, 0, 0, 0);
+  
+    border: 0;
+  
+  }

@@ -1,0 +1,227 @@
+.chatbot-container {
+
+    margin-top: 20px;
+    max-width: none !important;
+  
+  }
+  
+  .messages{
+    margin: 50px;
+  }
+  
+  .chat-wrapper {
+    position: absolute;
+    border-radius: 0;
+  
+    display: flex;
+    text-align: start;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    justify-items: stretch;
+    justify-content: center;
+    width: 80%;
+  
+    flex-direction: column;
+  
+    align-items: start;
+  
+    color: rgba(30, 6, 96, 1);
+  
+    font: 400 12px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  
+  }
+  
+  
+  .header {
+  
+    display: flex;
+  
+    gap: 13px;
+  
+    font-size: 19px;
+  
+    color: rgba(63, 11, 205, 1);
+  
+    font-weight: 500;
+  
+  }
+  
+  
+  .avatar {
+  
+    aspect-ratio: 1;
+  
+    object-fit: contain;
+  
+    object-position: center;
+  
+    width: 55px;
+  
+  }
+  
+  
+  .bot-title {
+  
+    margin: auto 0;
+  
+  }
+  
+  
+  .bot-title-bold {
+  
+    font-weight: 700;
+  
+  }
+  
+  
+  .message {
+  
+    border-radius: 22px;
+  
+    background-color: rgba(255, 255, 255, 1);
+  
+    padding: 14px 28px;
+  
+  }
+  
+  
+  .welcome-message {
+  
+    composes: message;
+  
+    align-self: center;
+  
+    margin-top: 148px;
+  
+    width: 319px;
+  
+    max-width: 100%;
+  
+  }
+  
+  
+  .message-group {
+  
+    display: flex;
+  
+    width: 100%;
+  
+    max-width: 388px;
+  
+    gap: 14px;
+  
+    font-weight: 700;
+  
+  }
+  
+  .messages {
+    height: 400px; /* Задаем фиксированную высоту для контейнера */
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+    padding: 10px;
+  }
+  
+  .age-message {
+  
+    composes: message;
+  
+    align-self: start;
+  
+    margin-top: 14px;
+  
+    flex-grow: 1;
+  
+    width: fit-content;
+
+    background-color: #3f0bcd15;
+  
+  }
+  
+  
+  .age-option {
+  
+    composes: message;
+  
+    align-self: end;
+  
+    margin-top: 40px;
+  
+    width: 319px;
+  
+    max-width: 100%;
+  
+    text-align: end;
+  
+    padding: 13px 70px;
+    background-color: #c0c0c015;
+  
+  }
+  
+  
+  .interests-group {
+  
+    display: flex;
+  
+    margin-top: 38px;
+  
+    width: 100%;
+  
+    max-width: 388px;
+  
+    gap: 14px;
+  
+    font-weight: 700;
+  
+  }
+  
+  
+  .interests-message {
+  
+    composes: message;
+  
+    flex-grow: 1;
+  
+    width: fit-content;
+  
+  }
+  
+  
+  .custom-option {
+  
+    color: rgba(30, 6, 96, 0.63);
+    width: 100%;
+    border: 0;
+    padding: 5px;
+  }
+  
+  
+  @media (max-width: 991px) {
+  
+    .welcome-message,
+  
+    .age-message,
+  
+    .age-option,
+  
+    .interests-message {
+  
+      padding: 0 20px;
+  
+    }
+  
+    
+  
+    .welcome-message,
+  
+    .custom-option {
+  
+      margin-top: 40px;
+  
+    }
+  
+  }

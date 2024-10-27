@@ -1,0 +1,124 @@
+.container {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    display: flex;
+  
+    margin-left: 16px;
+  
+    color: #3f0bcd;
+  
+  }
+  
+  
+  .title {
+  
+    font-size: 36px;
+  
+    font-weight: 400;
+  
+  }
+  
+  
+  .cardsContainer {
+  
+    position: relative;
+  
+    display: flex;
+
+    flex-wrap: wrap;
+
+    max-width: 100%;
+  
+    gap: 0px 0px;
+  
+    text-align: center;
+  
+  }
+  
+  
+  .submitButton {
+  
+    position: relative;
+  
+    align-self: center;
+  
+    border-radius: 18px;
+  
+    background: linear-gradient(180deg, #460ce5 0%, #3509ac 100%);
+  
+    box-shadow: 0 -7.819px 7.819px 0 #813a0e inset,
+  
+                0 7.819px 7.819px 0 #e37d3d inset,
+  
+                0 18px 23px 0 rgba(66, 28, 4, 0.44);
+  
+    margin-top: 108px;
+  
+    min-height: 36px;
+  
+    width: 176px;
+  
+    font-size: 12px;
+  
+    color: #fff;
+  
+    font-weight: 600;
+  
+    padding: 11px 46px;
+  
+    border: none;
+  
+    cursor: pointer;
+  
+  }
+  
+  
+  @media (max-width: 991px) {
+  
+    .mainSection {
+  
+      max-width: 100%;
+  
+      padding: 100px 20px 0;
+  
+    }
+  
+    
+  
+    .header {
+  
+      margin-left: 10px;
+  
+    }
+  
+    
+  
+    .cardsContainer {
+  
+      margin-top: 40px;
+  
+    }
+  
+    
+  
+    .submitButton {
+  
+      margin-top: 40px;
+  
+      padding: 11px 20px;
+  
+    }
+  
+  }

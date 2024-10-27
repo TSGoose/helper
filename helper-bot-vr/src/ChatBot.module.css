@@ -1,0 +1,38 @@
+.back{
+  background-image: url('../public/back.jpg'); /* Устанавливаем фоновое изображение */
+  background-size: cover; /* Заставляем изображение покрыть весь элемент */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Изображение не повторяется */
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    display: flex;
+    max-width: 610px;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    height: 100vh;
+  }
+  
+  .mainSection {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .backgroundImage {
+    position: relative;
+    height: 100vh;
+    right: 0;
+    /* width: 100%; */
+    object-fit: cover;
+    object-position: center;
+  
+  }
